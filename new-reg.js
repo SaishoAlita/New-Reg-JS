@@ -1,5 +1,3 @@
-startAll();
-
 function startAll() {
 	$("div:hidden").show();
 	window.alert = function () {};
