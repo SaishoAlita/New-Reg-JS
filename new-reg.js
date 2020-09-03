@@ -1,7 +1,4 @@
-window.addEventListener("load", function () {
-	console.log("It's loaded!");
-	startAll();
-});
+startAll();
 
 function startAll() {
 	$("div:hidden").show();
