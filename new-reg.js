@@ -33,7 +33,7 @@ function mainPage() {
 
 function purposePage() {
 	$.getScript(
-		"https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js%22"
+		"https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"
 	);
 	$("select").select2("open");
 	$("#P5_NEW_2").val("5").change();
